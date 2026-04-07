@@ -3,7 +3,7 @@
 %bcond_without	doc	# Sphinx documentation
 %bcond_with	tests	# unit tests (incomplete dependencies)
 %bcond_without	python2 # CPython 2.x module
-%bcond_without	python3 # CPython 3.x module
+%bcond_with	python3 # CPython 3.x module (built from python3-oslo.db.spec)
 
 Summary:	Oslo Database library
 Summary(pl.UTF-8):	Biblioteka Oslo Database
